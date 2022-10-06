@@ -4,4 +4,5 @@ export const Container = styled.div``
 
 export const Content = styled.div`
     margin-top: 24px;
+    padding-left: 65px;
 `

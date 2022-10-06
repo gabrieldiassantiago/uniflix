@@ -10,13 +10,13 @@ export const Container = styled.div<IContainerProps>`
     background: ${({ imageUrl }) => `linear-gradient(269.96deg, rgba(0, 0, 0, 0) 0.04%, rgba(0, 0, 0, 0.8) 99.5%), url(${imageUrl})`};
     background-size: cover;
     background-repeat: no-repeat;
+
 `
 
 export const Content = styled.div`
   max-width: 1300px;
   height: 100%;
   margin: 0 auto; 
-
   display: flex;
   justify-content: center;
   flex-direction: column;
